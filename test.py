@@ -44,7 +44,7 @@ async def menu():
             if contacts:
                 print("\nListe des contacts :")
                 for contact in contacts:
-                    print("Nom : ", contact[0], "Téléphone : ", contact[1])
+                    print(f"Nom: {contact[0]}, Téléphone: {contact[1]}")
             else:
                 print("Aucun contact enregistré.")
 
